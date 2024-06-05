@@ -1,0 +1,833 @@
+body {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+
+
+/* banner part css start */
+
+.navbar {
+  padding-top: 15px;
+  position: relative;
+  z-index: 9999;
+  padding-bottom: 15px;
+  position: fixed;
+  top: 0; 
+  width: 100%;
+  transition: 1s all ease;
+}
+
+
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 16px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+}
+
+.nav-link{
+  margin: 0px 5px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  background-color: #643a79;
+
+}
+
+.nav-bg{
+  background: #726b6b;
+}
+
+#banner-part {
+  background: linear-gradient(rgba(135, 80, 156, 0.9), rgba(135, 80, 156, 0.9)), url(../img/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+
+
+.banner-text {
+  text-align: center;
+  padding-top: 150px;
+  position: relative;
+
+}
+
+.banner-text h1 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: #f7f3ea;
+  line-height: 63px;
+}
+
+.banner-text a {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #f7f3ea;
+  background-color: #eb7d4b;
+  padding: 15px 60px;
+  border: none;
+  margin: 60px 0px 150px 0;
+}
+
+.banner-text a:hover {
+  color: rgb(54, 74, 67);
+}
+
+
+/* banner part css end */
+
+
+
+
+
+
+/* Service part css start */
+
+#service-part {
+  background: linear-gradient(rgba(23, 194, 164, 0.9), rgba(23, 194, 164, 0.9)), url(../img/services-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding: 120px 0px;
+}
+
+
+.service-head h1 {
+  /* padding-top: 120px; */
+  font-family: "Titillium Web", sans-serif;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  position: relative;
+}
+
+.service-head h1::after {
+  position: absolute;
+  content: '';
+  background-color: #34746a;
+  width: 90px;
+  height: 4px;
+  left: 50%;
+  top: 60px;
+  transform: translateX(-50%);
+}
+
+
+.service-head p {
+  font-family: "Titillium Web", sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 20px;
+  line-height: 28px;
+}
+
+
+.service-text h5 {
+  text-transform: uppercase;
+  font-family: "Titillium Web", sans-serif;
+  padding-top: 60px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.service-text p {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #ffffff;
+  line-height: 26px;
+  padding: 0px 30px;
+  /* padding-bottom: 120px; */
+}
+
+/* Service part css end */
+
+
+
+
+
+
+
+/* Team part css start */
+
+
+#team-part {
+  background: linear-gradient(rgba(231, 241, 248, 0.9), rgba(231, 241, 248, 0.9)), url(../img/team-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.team-slider {
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+
+.team-head h1 {
+  padding-top: 120px;
+  font-family: "Titillium Web", sans-serif;
+  color: #3c4761;
+  font-size: 42px;
+  font-weight: 700;
+  position: relative;
+}
+
+.team-head h1::after {
+  position: absolute;
+  content: '';
+  background-color: #c8d9e5;
+  width: 90px;
+  height: 4px;
+  left: 50%;
+  top: 180px;
+  transform: translateX(-50%);
+}
+
+.team-head p {
+  font-family: "Titillium Web", sans-serif;
+  color: #535e75;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 25px;
+  line-height: 28px;
+  /* padding-bottom: 80px; */
+}
+
+.team-item img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+.team-body h3 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #27283d;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+
+
+}
+
+.team-body h6 {
+  font-family: "Titillium Web", sans-serif;
+  color: #3aa8cd;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.team-body p {
+  font-family: "Titillium Web", sans-serif;
+  color: #575e6e;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 30px;
+  padding: 0px 27px;
+  padding-bottom: 20px;
+}
+
+.team-body ul li {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #566169;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.team-body ul li a i {
+  color: #ffffff;
+}
+
+.team-body ul {
+  padding-left: 0;
+}
+
+
+
+
+.slick-dots {
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slick-dots li {
+  display: inline-block;
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  border-radius: 50%;
+  border: 2px solid rgb(133, 99, 99);
+}
+
+.slick-dots li button {
+  color: transparent;
+  height: 17px;
+  width: 17px;
+  line-height: 19px;
+  border-radius: 50%;
+  border: none;
+  background: #294e4b;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.slick-dots li.slick-active button {
+  opacity: 1;
+
+}
+
+.slick-active button:focus {
+  outline: 0;
+  /* outline: 5px auto -webkit-focus-ring-color; */
+}
+
+
+/* Team part css end */
+
+
+
+
+
+
+
+/* Skill part css start */
+
+
+#skill-part {
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../img/skill-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding: 120px 0px;
+}
+
+.skill-top-part h1 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #3c4761;
+}
+
+.skill-top-part h1::after {
+  position: absolute;
+  content: '';
+  background-color: #354c59;
+  width: 90px;
+  height: 4px;
+  left: 50%;
+  top: 60px;
+  transform: translateX(-50%);
+}
+
+.skill-top-part p {
+  font-family: "Titillium Web", sans-serif;
+  color: #535e75;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 25px;
+  line-height: 28px;
+  padding-bottom: 85px;
+}
+
+
+
+/* Progress Bar css*/
+
+.circular-progress-web {
+  position: relative;
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  background: conic-gradient(rgb(48, 186, 231) 288deg, rgb(237, 237, 237) 0deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circular-progress-web::before {
+  content: "";
+  position: absolute;
+  height: 145px;
+  width: 145px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.progress-value-web {
+  position: relative;
+  font-size: 50px;
+  font-weight: 300;
+  color: #3c4761;
+
+}
+
+
+.circular-progress-html {
+  position: relative;
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  background: conic-gradient(rgb(48, 186, 231) 288deg, rgb(237, 237, 237) 0deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circular-progress-html::before {
+  content: "";
+  position: absolute;
+  height: 145px;
+  width: 145px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.progress-value-html {
+  position: relative;
+  font-size: 50px;
+  font-weight: 300;
+  color: #3c4761;
+}
+
+
+.circular-progress-gd {
+  position: relative;
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  background: conic-gradient(rgb(48, 186, 231) 288deg, rgb(237, 237, 237) 0deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circular-progress-gd::before {
+  content: "";
+  position: absolute;
+  height: 145px;
+  width: 145px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.progress-value-gd {
+  position: relative;
+  font-size: 50px;
+  font-weight: 300;
+  color: #3c4761;
+}
+
+
+.circular-progress-ui {
+  position: relative;
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  background: conic-gradient(rgb(48, 186, 231) 288deg, rgb(237, 237, 237) 0deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circular-progress-ui::before {
+  content: "";
+  position: absolute;
+  height: 145px;
+  width: 145px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.progress-value-ui {
+  position: relative;
+  font-size: 50px;
+  font-weight: 300;
+  color: #3c4761;
+}
+
+.progress-bottom-heading {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #3c4761;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 30px;
+}
+
+
+/* Skill part css end */
+
+
+
+
+
+
+
+
+/* Portfolio part start */
+
+
+#portfolio-part {
+  background: linear-gradient(rgba(255, 221, 153, 0.9), rgba(255, 221, 153, 0.9)), url(../img/portfolio-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 110px;
+  padding-top: 120px;
+}
+
+.portfolio-top-part h1 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #393939;
+  position: relative;
+}
+
+.portfolio-top-part h1::after {
+  position: absolute;
+  content: '';
+  background-color: #e5c37f;
+  width: 90px;
+  height: 4px;
+  left: 50%;
+  top: 60px;
+  transform: translateX(-50%);
+}
+
+.portfolio-top-part p {
+  font-family: "Titillium Web", sans-serif;
+  color: #534f46;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 25px;
+  line-height: 28px;
+  padding-bottom: 40px;
+}
+
+
+
+.portfolio-filter {
+  margin-bottom: 65px;
+}
+
+.portfolio-filter button {
+  height: 40px;
+  width: 80px;
+  background-color: #ebc985;
+  color: #746952;
+  border: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  border-radius: 5px;
+  margin: 0px 5px;
+  transition: .5s;
+
+}
+
+.portfolio-filter button:hover {
+  cursor: pointer;
+  /* box-shadow: inset 0px 0px 5px 0px rgba(92, 82, 82, 0.5); */
+  /* box-shadow: inset 2px 3px 2px 2px rgba(105, 90, 90, 0.75); */
+  box-shadow: inset 10px 0 10px -10px rgba(0, 0, 0, 0.5),
+    /* Left inner shadow */
+    inset -10px 0 10px -10px rgba(0, 0, 0, 0.5),
+    /* Right inner shadow */
+    inset 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+.portfolio-filter .mixitup-control-active {
+  background: #ffffff;
+}
+
+.portfolio-filter button:focus {
+  outline: 0;
+
+}
+
+
+.portfolio-details h4 {
+  font-family: "Titillium Web", sans-serif;
+  color: #534f46;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 30px;
+  padding-bottom: 55px;
+  text-transform: uppercase;
+}
+
+.portfolio-lower-btn .btn-portfolio {
+  font-family: "Titillium Web", sans-serif;
+  background: #17c2a4;
+  color: #ffffff;
+  border-color: #14a58c;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 40px;
+}
+
+
+/* Portfolio part end  */
+
+
+
+
+/* About part css start */
+
+
+#about-part {
+  background: linear-gradient(rgba(215, 70, 128, 0.9), rgba(215, 70, 128, 0.9)), url(../img/testimonial-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding-top: 120px;
+  padding-bottom: 130px;
+}
+
+.about-top-part h1 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+  position: relative;
+}
+
+.about-top-part h1::after {
+  position: absolute;
+  content: '';
+  background-color: #b73c6d;
+  width: 90px;
+  height: 4px;
+  left: 50%;
+  top: 60px;
+  transform: translateX(-50%);
+  margin-top: 5px;
+}
+
+.about-top-part p {
+  font-family: "Titillium Web", sans-serif;
+  color: #efb5cc;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+
+.about-personal-details-img img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.col-gape {
+  padding-bottom: 150px;
+}
+
+.about-personal-details .col-lg-8 {
+  padding: 0;
+}
+
+.about-personal-details-text p {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 21px;
+  line-height: 31px;
+  font-weight: 400;
+  color: #f7dae6;
+  font-style: italic;
+  padding: 0 !important;
+
+}
+
+.about-personal-details-text h2 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+
+.about-personal-details-text h5 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fac996;
+
+}
+
+/* About part css end */
+
+
+
+
+
+/* Contact part css start */
+
+
+#contact-part {
+  background: linear-gradient(rgba(60, 84, 153, 0.9), rgba(60, 84, 153, 0.9)), url(../img/contact-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding: 115PX 0PX;
+}
+
+.contact-top-part h1 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.contact-top-part h1::after {
+  position: absolute;
+  content: '';
+  background-color: #273a71;
+  width: 90px;
+  height: 4px;
+  left: 50%;
+  top: 60px;
+  transform: translateX(-50%);
+}
+
+.contact-top-part p {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  color:#e5e8f1;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.form-group .form-control{
+  margin-top: 20px;
+  background: #273a71;
+  border: none;
+  color: #ffffff;
+  
+}
+.form-group .form-control::placeholder{
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+input[type="text"], [type="email"], textarea {
+  outline: none;
+  box-shadow:none !important;
+}
+
+.form-text-area-part .form-group textarea{
+  height: 200px;
+}
+
+.btn-contact{
+  color: #ffffff;
+  background: #30bae7;
+  padding: 20px 70px;
+  margin-top: 60px;
+  /* margin-bottom: 115px; */
+}
+
+.btn-contact:hover{
+  cursor: pointer;
+  color: #ffffff;
+  box-shadow:  0px 6px 6px 0px #299ec5;
+  
+}
+
+
+/* Contact part css end */
+
+
+
+
+
+
+
+/* Footer part css start */
+
+#footer-part{
+  background: #344b8e;
+  padding: 30px 0px;
+}
+
+.footer-item ul{
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-left: 0;
+}
+.footer-item ul li{
+  display: inline-block;
+  margin: 0px 30px;
+  text-decoration: none;
+}
+
+.footer-item ul li a{
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.footer-item ul li a:hover{
+  color: #30bae7;
+  cursor: pointer;
+}
+
+/* Footer part css end */
+
+
+
+
+/*
+   font-family: "Titillium Web", sans-serif;
+
+*/
